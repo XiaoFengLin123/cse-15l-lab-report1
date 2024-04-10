@@ -37,7 +37,7 @@ Share an example of using the command with a path to a directory as an argument.
 ![Image](ls example 2.jpg)
 
 The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
-We use the command `ls /c/Users/capta/lecture1/messages`, listing the contents of a specified directory, which in this case was `/c/Users/capta/lecture1/messages`. We don't need to be in that directory to list the contents, but the command will allow us to see what files and directories are within that working file directory. This output doesn't give an error unless the provided directory is not a directory. 
+We use the command `ls /c/Users/capta/lecture1/messages` or `ls lecture1`, it listed the contents of a specified directory, which in this case was `/c/Users/capta/lecture1/messages`. We don't need to be in that directory to list the contents, but the command will allow us to see what files and directories are within that working file directory. This output doesn't give an error unless the provided directory is not a directory. 
 
 
 Share an example of using the command with a path to a file as an argument.
@@ -48,12 +48,24 @@ When we use the command  `ls Hello.java`, it gives us back Hello.java. This is b
 
 **Examples of `cat`**
 
-Share an example of using the command with no arguments.
+An example of using the command with no arguments.
 ![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/918bb65e-e17a-4e88-9e5b-6f5b9f7785b4)
 
 The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
-When we use `cat` without any argument, it just creates a new space character in the terminal I try to enter and execute the command. It's not doing anything and keeps prompting me to enter an argument. This is because `cat` is supposed to be used to concatenate files and output the results. This is not an error and is purposeful. Since we didn't provide two file, so it will keep prompting us until we give it a file. 
+When we use `cat` without any argument, it just creates a new space character in the terminal when I try to enter and execute the command. It's not doing anything and keeps prompting me to enter an argument. This is because `cat` is supposed to be used to concatenate files and output the results. This is not an error and is purposeful. Since we didn't provide two files, it will keep prompting us until we give it a file. 
+
+An example of using the command with a path to a directory as an argument.
+![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/fe3ee934-a35e-49fe-a7fb-c58bc5e247ea)
+
+The absolute path to the working directory was right before the command was run: `/c/Users/capta`
+When we try to use `cat` and a path to a directory as an argument, in this case, lectre1, we get an error that says `lecture1: Is a directory`. This is an error because Cat only works with files and prints the contents. If we try to use a directory it will cause an error since it only accepts files. 
+
+An example of using the command with a path to a file as an argument.
+![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/07245916-2c78-458b-9d88-1c6b9f27d946)
 
 
+The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
+
+When we use `cat Hello.java`, it prints the contents of the file in Hello.java. It spit out the code within the Java file and printed it to the terminal. This is because `cat` is often used to read and then display the content of the file if that file is within the current working directory. This is not an error because  `cat` is suppose to display all of the contents to the terminal for you to read. 
 
 
