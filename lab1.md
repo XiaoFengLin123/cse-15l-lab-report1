@@ -24,4 +24,17 @@ The absolute path to the working directory was right before the command was run:
 When we use the command `cd` with a path to a file as an argument, in this case Hello.java, we get an error that says `bash: cd: Hello.java is not a directory.` 
 This means that `cd` cannot be used with a path to a file as its argument; you can use the directory part of the file's path to change the working directory to where the file is located. The working directory is still `/c/Users/capta/lecture1`. The  `cd` command requires a directory as an argument, not a file. If you want to navigate to a file, you need to change it to the directory that contains that file but not the file itself. 
 
+**Examples of `ls`**
+
+An example of using the command with no arguments.
+![Image](ls example 1.jpg)
+
+The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
+When we use the command `ls` without any arguments, it displays the files and directories in the current working directory. When you use `ls` without any arguments, you are simply viewing the current location within the filesystem, which is the directory I am currently in (`/c/Users/capta/lecture1`). The output doesn't give an error as it just lists the contents of my current working directory, and since `/c/Users/capita/lecture1` is a working directory, it didn't cause an error. 
+
+Share an example of using the command with a path to a directory as an argument.
+![Image](ls example 2.jpg)
+
+
+ 
 
