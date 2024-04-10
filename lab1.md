@@ -26,7 +26,7 @@ This means that `cd` cannot be used with a path to a file as its argument; you c
 
 **Examples of `ls`**
 
-An example of using the command with no arguments.
+An example of using the command with no arguments
 ![Image](ls example 1.jpg)
 
 The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
