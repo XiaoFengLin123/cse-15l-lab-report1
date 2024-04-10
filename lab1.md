@@ -36,6 +36,23 @@ When we use the command `ls` without any arguments, it displays the files and di
 Share an example of using the command with a path to a directory as an argument.
 ![Image](ls example 2.jpg)
 
+The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
+We use the command `ls /c/Users/capta/lecture1/messages`, listing the contents of a specified directory, which in this case was `/c/Users/capta/lecture1/messages`. We don't need to be in that directory to list the contents, but the command will allow us to see what files and directories are within that working file directory. This output doesn't give an error unless the provided directory is not a directory. 
 
- 
+
+Share an example of using the command with a path to a file as an argument.
+![Image](ls example 3.jpg)
+
+The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
+When we use the command  `ls Hello.java`, it gives us back Hello.java. This is because when we `ls` a file, we just confirm if that file exists and spit out the path that contains that file if the file exists. If that file doesn't exist, it will say that the file `ls: cannot access 'filename': No such file or directory.` In this example, since we are already in the working directory that contains Hello.java, we will just get back the file name, which is Hello.java. 
+
+**Examples of `cat`**
+Share an example of using the command with no arguments.
+![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/918bb65e-e17a-4e88-9e5b-6f5b9f7785b4)
+
+The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
+When we use `cat` without any argument, it just creates a new space character in the terminal I try to enter and execute the command. It's not doing anything and keeps prompting me to enter an argument. This is because `cat` is supposed to be used to concatenate files and output the results. This is not an error and is purposeful. Since we didn't provide two file, so it will keep prompting us until we give it a file. 
+
+
+
 
