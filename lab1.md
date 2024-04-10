@@ -12,3 +12,7 @@ There is no error in this case since if `cd` is not provided with any arguments,
 
 An example of using the command with a path to a directory as an argument.
 ![Image](cd example 2.jpg)
+
+The absolute path to the working directory was right before the command was run: `/c/Users/capta`
+When we use the command `cd` with a path to lecture1 as an argument, it changes the current working directory to `/c/Users/capta/lecture1`. The output of this command is that I am in `/c/Users/capta/lecture1`, which is also a working directory.  `cd` changes the working directory to the path that is specified which was `lecture1`. Since lecture1 is a working directory and the path `/c/Users/capta/lecture1` exists, it changes it to `/c/Users/capta/lecture1`. 
+The directory exists, so I didn't get an error. However, if the directory doesn't exist or the path is incorrect, I will get an error and cannot change the working directory.  
