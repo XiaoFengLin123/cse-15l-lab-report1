@@ -47,6 +47,7 @@ The absolute path to the working directory was right before the command was run:
 When we use the command  `ls Hello.java`, it gives us back Hello.java. This is because when we `ls` a file, we just confirm if that file exists and spit out the path that contains that file if the file exists. If that file doesn't exist, it will say that the file `ls: cannot access 'filename': No such file or directory.` In this example, since we are already in the working directory that contains Hello.java, we will just get back the file name, which is Hello.java. 
 
 **Examples of `cat`**
+
 Share an example of using the command with no arguments.
 ![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/918bb65e-e17a-4e88-9e5b-6f5b9f7785b4)
 
