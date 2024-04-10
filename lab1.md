@@ -49,6 +49,7 @@ When we use the command  `ls Hello.java`, it gives us back Hello.java. This is b
 **Examples of `cat`**
 
 An example of using the command with no arguments.
+
 ![image](https://github.com/XiaoFengLin123/cse-15l-lab-report1/assets/146484956/918bb65e-e17a-4e88-9e5b-6f5b9f7785b4)
 
 The absolute path to the working directory was right before the command was run: `/c/Users/capta/lecture1`
